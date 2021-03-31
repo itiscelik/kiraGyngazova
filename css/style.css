@@ -48,29 +48,11 @@ p {
     text-indent: 25px;
 }
 
-#carouselExampleIndicators {
-    padding: auto;
+#carouselExampleSlidesOnly{
+    height: 75%;
 }
-
-.carousel-inner img{
-    width: 80%;
-    height: 80%;
-}
-.carousel-caption{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.carousel-caption h1{
-    font-size: 80%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 15px #000;
-}
-.carousel-caption h3{
-    font-size: 80%;
-    font-weight: 80;
-    text-shadow: 1px 1px 10px #000;
-    padding-bottom: 1rem;
+.carousel-slide{
+    height: 75%;
 }
 
 .aside-button > li { 
