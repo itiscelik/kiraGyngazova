@@ -6,9 +6,10 @@ body{
     color: #222;
 }
 
-.navbar{
+.bg-linear{
     background: linear-gradient(45deg, #00ffff, #ffccff);
-    padding: 5px;
+    border-bottom: 1px solid white;
+    padding: 1px;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -47,6 +48,10 @@ p {
     text-indent: 25px;
 }
 
+#carouselExampleIndicators {
+    padding: auto;
+}
+
 .carousel-inner img{
     width: 80%;
     height: 80%;
@@ -68,6 +73,10 @@ p {
     padding-bottom: 1rem;
 }
 
+.aside-button > li { 
+    margin-bottom: 10px;
+}
+
 .collapsible {
   background-color: white;
   color: black;
@@ -83,6 +92,11 @@ p {
 
 .active, .collapsible:hover {
   background-color: linear-gradient(45deg, #00ffff, #ffccff);
+}
+
+.jumbotron {
+    padding: 1px;
+    margin: 1px;
 }
 
 .content {
@@ -140,25 +154,88 @@ p {
 }
 
 .btn-primary{
-    background-color: #6648b1;
-    border: 1px solid #563d7c;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
 }
 .btn-primary:hover{
-    background-color: #563d7c;
-    border: 1px solid #563d7c;
+    background-color: #ffccff;
+    border: 1px solid #ffccff;
     animation-name: background-color;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 2;
+    animation-iteration-count: 3;
 }
+
+.btn-outline-secondary {
+    margin: auto;
+    padding: auto;
+}
+
+.rounded-circle{
+    width: 90px;
+    height: 90px;
+}
+
+.wrap {
+    width: 100%; 
+    min-height: 100%; 
+    overflow:hidden; 
+    min-height: 99vh; 
+    background: linear-gradient(45deg, #00ffff, #ffccff); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+}
+
+#wrap-h1 {
+    font-family: Arial; 
+    color: white; 
+    font-size: 20px;  
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+}
+
+#wrap-p {
+    font-family: Arial; 
+    color: white; 
+    font-size: 20px; 
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+#container-h1 {
+    font-family: Arial; 
+    color: black; 
+    font-size: 20px;  
+    text-transform: uppercase;
+}
+
+#container-p {
+    font-family: Arial; 
+    color: black; 
+    font-size: 20px; 
+}
+
 .card-body {
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
+    padding: 2px;
+    margin: 2px;
+}
+
+.card-img-top{
+    width: 200px;
+    height: 200px;
+    padding: auto;
+    margin: 1px;
 }
 
 .card-text {
     text-align: center;
     width: 100%;
+    padding: 2px;
+    margin: 2px;
 }
 @keyframes background-color{
     100%{
@@ -185,6 +262,11 @@ p {
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem; 
+}
+
+.wpcf7-form-control-wrap {
+    position: relative;
+    border-color: gray;
 }
 
 footer{
@@ -218,10 +300,10 @@ hr.light-100{
 }*/
 
 .form-signin {
-    width: 100%;
-    max-width: 330px;
+    width: 50%;
+    max-width: 130px;
     padding: 15px;
-    margin: auto;
+    margin: 15px;
 }
 
 form {
@@ -264,15 +346,12 @@ label {
 .w-100 {
     width: 100%!important;
 }
+
 .btn-group-lg>.btn, .btn-lg {
+    background-color: #563d7c;
     padding: .5rem 1rem;
     font-size: 1.25rem;
     border-radius: .3rem;
-}
-.btn-primary {
-    color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
 }
 
 .btn {
@@ -283,7 +362,23 @@ label {
     text-decoration: none;
     vertical-align: middle;
     user-select: none;
-    border: 1px solid transparent;
+    border: 1-0.5px solid transparent;
+}
+
+.btn-primary{
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+}
+
+a.btn.btn-primary {}
+
+.btn-primary:hover{
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+    animation-name: background-color;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
 }
 
 .mt-5 {
