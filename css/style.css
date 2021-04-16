@@ -352,7 +352,9 @@ label {
     border: 1px solid #563d7c;
 }
 
-a.btn.btn-primary {}
+a.btn-primary {
+    
+}
 
 .btn-primary:hover{
     background-color: #563d7c;
